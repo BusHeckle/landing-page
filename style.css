@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto';
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 button {
@@ -38,7 +39,8 @@ button {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    padding: 75px;
+    width: 100%;
+    padding: 75px 100px;
     align-content: flex-end;
 }
 .hero h1{
@@ -100,10 +102,13 @@ button {
     padding: 15px;
     border-radius: 15px;
     display: flex;
+    justify-content: space-around;
 }
 .call-to-action button{
     flex-shrink: 0;
 }
 .footer{
     background-color: #1f2937;
+    color: white;
+    text-align:center;
 }
